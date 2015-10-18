@@ -7,7 +7,7 @@ export class MyComponent extends React.Component<any, any> {
     super(props);
   }
   render() {
-     return <h1>hi lol</h1>
+     return <h1>Hello World!</h1>
   }
   showComponent() {
     ReactDOM.render(
