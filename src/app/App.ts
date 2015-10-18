@@ -1,6 +1,13 @@
 //$ = jQuery = require('jquery');
 require('../sass/styles.scss');
 
-$(()=>{
-  console.info('test 1, 2, 3, 4, 5, 6, 7, 8, 9, 10...');
-})
+import {MyComponent} from './components/MyComponent';
+import {MyService} from '../services/service';
+
+var myComponent = new MyComponent(null)
+myComponent.showComponent();
+
+var myService = new MyService();
+myService.getData().then( data => {
+  console.log(data);
+});
