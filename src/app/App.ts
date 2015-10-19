@@ -1,13 +1,13 @@
 //$ = jQuery = require('jquery');
 require('../sass/styles.scss');
 
-import {MyComponent} from './components/MyComponent';
-import {MyService} from './services/service';
+import {App} from './components/App';
+import {MyService} from './services/Service';
 
-var myComponent = new MyComponent(null)
-myComponent.showComponent();
+var app = new App(null)
+app.show();
 
-var myService = new MyService();
-myService.getData().then( data => {
-  console.log(data);
-});
+//var myService = new MyService();
+// myService.getData().then( data => {
+//   console.log(data);
+// });
