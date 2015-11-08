@@ -14,9 +14,9 @@
 
 `npm install gulp -g`
 
-**tsd** 
+**tsd**
 
-`npm intall tsd -g`
+`npm install tsd -g`
 
 ## Clone the project and then run
 
